@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <h1>Форма создания клиента</h1>
+    <FormList />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import FormList from "@/components/FormList";
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    FormList
   }
 }
 </script>
